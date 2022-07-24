@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// This is the project stylesheet
+
+// Colors
+$black: rgba(0, 0, 0, 1);
+$dark-slate-gray: rgba(44, 46, 42, 1);
+$honeydew: rgba(217, 255, 225, 1);
+$pale-turquoise: rgba(191, 240, 255, 1);
+$sky-blue: rgba(132, 201, 217, 1);
+$white: rgba(255, 255, 255, 1);
+
+// Typographies
+@mixin pt-sans-24-regular {
+  font-family: "PT Sans";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+}
+@mixin pt-sans-36-bold {
+  font-family: "PT Sans";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: normal;
+}
